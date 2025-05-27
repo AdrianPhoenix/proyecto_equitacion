@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto de equitacion</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="logo">Equitación</a>
+        <button
+          class="menu-toggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#horarios">Horarios</a></li>
+          <li><a href="#equinoterapia">Equinoterapia</a></li>
+          <li><a href="#noticias">Noticias</a></li>
+          <li><a href="#ubicacion">Ubicacion</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="./login.html">Login</a></li>
+          <li><a href="./register.html">Registrarse</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="main">
+      <section class="banner">
+        <video autoplay muted loop class="banner-video">
+          <source src="./videos/banner.mp4" type="video/mp4" />
+          Tu navegador no soporta videos HTML5.
+        </video>
+        <div class="banner-content">
+          <h1>Bienvenido al Mundo de la Equitación</h1>
+          <p>Descubre la pasión por los caballos y la naturaleza.</p>
+          <a href="#servicios" class="btn-banner">Eventos</a>
+        </div>
+      </section>
+
+      <section class="clases" id="horarios">
+        <h2>Información sobre las Clases</h2>
+        <div class="clases-content">
+          <!-- Costo y Tarifas -->
+          <div class="clase-item">
+            <h3>Costo y Tarifas</h3>
+            <p>
+              Ofrecemos tarifas accesibles para todos los niveles. Consulta
+              nuestras opciones:
+            </p>
+            <ul>
+              <li>Clase individual: <strong>30$</strong></li>
+              <li>Paquete mensual: <strong>60$</strong></li>
+              <li>Clases grupales: <strong>15$/persona</strong></li>
+            </ul>
+          </div>
+
+          <!-- Horario de Clases -->
+          <div class="clase-item">
+            <h3>Horario de Clases</h3>
+            <p>Nuestras clases están disponibles en los siguientes horarios:</p>
+            <ul>
+              <li>Lunes a Viernes: <strong>9:00 AM - 6:00 PM</strong></li>
+              <li>Sábados: <strong>10:00 AM - 4:00 PM</strong></li>
+              <li>Domingos: <strong>Cerrado</strong></li>
+            </ul>
+          </div>
+
+          <!-- Edades Recomendadas -->
+          <div class="clase-item">
+            <h3>Edades Recomendadas</h3>
+            <p>Las clases están diseñadas para personas de todas las edades:</p>
+            <ul>
+              <li>Niños: <strong>6 - 12 años</strong></li>
+              <li>Adolescentes: <strong>13 - 17 años</strong></li>
+              <li>Adultos: <strong>18 años en adelante</strong></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Equinoterapia-->
+      <section class="equinoterapia" id="equinoterapia">
+        <h2>Equinoterapia</h2>
+        <div class="equinoterapia-content">
+          <div class="equinoterapia-text">
+            <h3>Qué es?</h3>
+            <p>
+              La equinoterapia es una terapia asistida con caballos que ayuda a
+              mejorar la calidad de vida de personas con diversas condiciones
+              físicas, emocionales y cognitivas. Es una experiencia única que
+              combina la conexión con los caballos y la naturaleza.
+            </p>
+            <a href="#contacto" class="btn-equinoterapia">Más Información</a>
+          </div>
+          <div class="equinoterapia-image">
+            <img
+              src="./assets/equinoterapia.png"
+              alt="Equinoterapia en acción"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--Ultimas Noticias-->
+      <section class="news" id="noticias">
+        <h2>Últimas Noticias de Equitación</h2>
+        <div class="news-cards">
+          <div class="card">
+            <img src="./assets/noticia1.png" alt="Noticia 1" />
+            <h3>
+              Denuncian un terrible caso de maltrato animal contra caballos en
+              un country de Buenos Aires
+            </h3>
+            <p>
+              Un escandaloso audio filtrado sacó a la luz un aberrante caso de
+              maltrato animal contra un grupo de caballos de un hípico en un
+              barrio cerrado.
+            </p>
+            <a
+              href="https://www.a24.com/policiales/denuncian-un-terrible-caso-maltrato-animal-contra-caballos-un-country-buenos-aires-n1391284"
+              target="_blank"
+              class="btn-card"
+              >Leer más</a
+            >
+          </div>
+          <div class="card">
+            <img src="./assets/noticia2.png" alt="Noticia 2" />
+            <h3>
+              Mira este dato sobre los inicios de la carrera de María Alejandra
+              Bruzual
+            </h3>
+            <p>
+              María Alejandra Bruzual, de 43 años de edad falleció este sábado
+              14 de octubre durante una competencia en el Hipódromo Nacional de
+              Valencia
+            </p>
+            <a
+              href="https://meridiano.net/hipismo/hipismo/mira-este-dato-sobre-los-inicios-de-la-carrera-de-maria-alejandra-bruzual-2023101620390"
+              class="btn-card"
+              >Leer más</a
+            >
+          </div>
+          <div class="card">
+            <img src="./assets/noticia3.png" alt="Noticia 3" />
+            <h3>
+              Realizarán un torneo de equitación este sábado en el Centro
+              Ecuestre Militar
+            </h3>
+            <p>
+              Este sábado 10 de mayo se llevará a cabo un torneo de equitación
+              en el Centro Ecuestre Militar “El Paracao”, ubicado sobre la ruta
+              hacia Oro Verde.
+            </p>
+            <a
+              href="https://www.elonce.com/parana/realizaran-un-torneo-de-equitacion-en-el-centro-ecuestre-militar.htm"
+              class="btn-card"
+              >Leer más</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="galeria">
+        <h3>Galería</h3>
+        <div class="galeria-grid">
+          <img
+            src="./assets/caballo1.jpeg"
+            alt="Jinete y caballo saltando un obstáculo"
+          />
+          <img
+            src="./assets/caballo2.png"
+            alt="Retrato de un caballo marrón con brida"
+          />
+          <img
+            src="./assets/caballo3.jpg"
+            alt="Grupo de caballos pastando en un campo verde"
+          />
+          <img
+            src="./assets/caballo4.jpg"
+            alt="Detalle de las herraduras de un caballo"
+          />
+          <img
+            src="./assets/caballo5.jpg"
+            alt="Niña acariciando la nariz de un caballo"
+          />
+          <img
+            src="./assets/caballo6.jpg"
+            alt="Entrenamiento de doma clásica"
+          />
+        </div>
+      </section>
+
+      <!-- Sección de Ubicación -->
+      <section class="ubicacion" id="ubicacion">
+        <h2>Ubicación</h2>
+        <p>
+          Nos encontramos en un entorno natural ideal para la equitación. ¡Ven a
+          visitarnos!
+        </p>
+        <div
+          class="mapa-container"
+          style="width: 100%; max-width: 600px; margin: auto"
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.484210388697!2d-3.703790684602019!3d40.41677597936409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42299780000001%3ACaracas!2sCaracas%2C%20Venezuela!5e0!3m2!1ses!2ses!4v1716740000000!5m2!1ses!2ses"
+            width="100%"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+
+            <!-- Sección de Contacto -->
+      <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes dudas o quieres reservar una clase? ¡Escríbenos!</p>
+        <form class="contacto-form">
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+          <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn-contacto">Enviar</button>
+        </form>
+      </section>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-logo">
+            <a href="#" class="logo">Equitación</a>
+            <p>Descubre la pasión por los caballos y la naturaleza.</p>
+          </div>
+          <div class="footer-links">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#servicios">Eventos</a></li>
+              <li><a href="#galeria">Galería</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contacto</h3>
+            <p>Email: contacto@equitacion.com</p>
+            <p>Teléfono: +34 123 456 789</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Equitación. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./js/home.js"></script>
+  </body>
+</html>

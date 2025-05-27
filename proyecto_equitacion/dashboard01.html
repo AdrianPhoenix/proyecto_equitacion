@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panel Profesor | Equitación</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/dashboard01.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h2><i class="fas fa-chalkboard-teacher"></i> Profesor</h2>
+        </div>
+        <ul class="sidebar-menu">
+          <li><a href="#overview"><i class="fas fa-chart-line"></i> Resumen</a></li>
+          <li><a href="#courses"><i class="fas fa-book"></i> Mis Cursos</a></li>
+          <li><a href="#students"><i class="fas fa-users"></i> Estudiantes</a></li>
+          <li><a href="#settings"><i class="fas fa-cogs"></i> Configuración</a></li>
+          <li><a href="./home.html"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a></li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <header class="main-header">
+          <h1>¡Bienvenido, Profesor!</h1>
+          <p class="subtitle">Gestiona tus cursos, estudiantes y recursos desde este panel.</p>
+        </header>
+
+        <!-- Tarjetas de resumen -->
+        <section class="dashboard-cards" id="overview">
+          <div class="card">
+            <i class="fas fa-book"></i>
+            <h3>5</h3>
+            <p>Cursos Activos</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-users"></i>
+            <h3>72</h3>
+            <p>Estudiantes</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-horse"></i>
+            <h3>18</h3>
+            <p>Caballos Asignados</p>
+          </div>
+        </section>
+
+        <!-- Tabla de cursos -->
+        <section class="content" id="courses">
+          <h2>Mis Cursos</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Curso</th>
+                <th>Horario</th>
+                <th>Días</th>
+                <th>Estudiantes</th>
+                <th>Caballos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Clase 1</td>
+                <td>10:00 am - 12:00 pm</td>
+                <td>Lun, Mié, Vie</td>
+                <td>18</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>Equinoterapia</td>
+                <td>12:00 pm - 2:00 pm</td>
+                <td>Mar, Jue</td>
+                <td>12</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>Clase 2</td>
+                <td>2:00 pm - 4:00 pm</td>
+                <td>Lun, Mié</td>
+                <td>15</td>
+                <td>7</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

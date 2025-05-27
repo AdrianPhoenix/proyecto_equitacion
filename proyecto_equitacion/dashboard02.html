@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panel Estudiante | Equitación</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/dashboard02.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h2>Panel de Estudiante</h2>
+        </div>
+        <ul class="sidebar-menu">
+          <li><a href="#overview"><i class="fas fa-chart-line"></i> Resumen</a></li>
+          <li><a href="#courses"><i class="fas fa-book"></i> Mis Cursos</a></li>
+          <li><a href="#settings"><i class="fas fa-cogs"></i> Configuración</a></li>
+          <li><a href="./home.html"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a></li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <header class="main-header">
+          <h1>Bienvenido, Estudiante</h1>
+        </header>
+        <section class="content" id="overview">
+          <p>
+            Este es tu panel de estudiante. Aquí puedes ver tus cursos, horarios y tu progreso.
+          </p>
+        </section>
+
+        <section class="content" id="courses">
+          <h2>Curso 1</h2>
+          <table class="table">
+            <tr>
+              <th>Horario del Curso</th>
+              <th>Lunes</th>
+              <th>Martes</th>
+              <th>Miércoles</th>
+              <th>Jueves</th>
+              <th>Viernes</th>
+              <th>Sábado</th>
+            </tr>
+            <tr>
+              <td>10:00 am - 12:00 pm</td>
+              <td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+              <td class="celdas__color2">10:00 am - 12:00 pm</td>
+              <td class="celdas__color2"></td>
+              <td class="celdas__color2"></td>
+              <td class="celdas__color2"></td>
+              <td class="celdas__color2"></td>
+              <td class="celdas__color2"></td>
+              <td class="celdas__color2"></td>
+            </tr>
+          </table>
+          <!-- Repite para Curso 2 y Curso 3 -->
+        </section>
+
+        <section class="content" id="progress">
+          <h2>Progreso del Estudiante</h2>
+          <div class="card">
+            <p>Aquí puedes ver tu progreso, calificaciones y comentarios de tus profesores.</p>
+            <!-- Puedes agregar barras de progreso, gráficos, etc. -->
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
